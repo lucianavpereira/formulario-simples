@@ -75,8 +75,7 @@ fieldset.grupo .campo {
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    /* width: 20%; */
-    
+        
 }
 
 .botao1:hover {
@@ -99,8 +98,7 @@ fieldset.grupo .campo {
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    /* width: 20%; */
-    
+        
 }
 .botao2:hover {
     background: #ccbbff;
