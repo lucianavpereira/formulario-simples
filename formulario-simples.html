@@ -37,15 +37,21 @@
         <div class="campo">
             <br>
             <label for="area"><strong>Marque sua área de atuação:</strong> </label>
-            <input type="radio" name="area" id="front" checked>Front-End <br>
-            <input type="radio" name="area" id="back">Back-End <br>
-            <input type="radio" name="area" id="full">Fullstack
+            <label>
+                <input type="radio" name="area" id="front" checked>Front-End
+            </label> <br>
+            <label>
+                <input type="radio" name="area" id="back">Back-End
+            </label> <br>
+            <label>
+                <input type="radio" name="area" id="full">Fullstack
+            </label>
         </div>
 
         <div class="campo">
             <br>
             <label for="senioridade"><strong>Senioridade:</strong> </label>
-            <select id="senioridade">
+            <select id="senioridade" required>
                 <option selected disabled value="">Selecione</option>
                 <option>Júnior</option>
                 <option>Pleno</option>
@@ -81,7 +87,7 @@
             <textarea name="experiencia" id="experiencia" rows="6" style="width: 26em;"></textarea>
         </div>
 
-            <button class="botao1" type="submit">Concluído</button>
+            <button class="botao1" type="submit" onsubmit="">Concluído</button>
             <button class="botao2" type="reset">Limpar</button>
    
 
