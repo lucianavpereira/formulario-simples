@@ -1,1 +1,0 @@
-Só para fim de teste no envio de informações de cadastro
