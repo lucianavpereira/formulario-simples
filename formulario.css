@@ -6,7 +6,7 @@
 #titulo {
     font-family: sans-serif;
     color: #380B61;
-    margin-left: 7%;
+    margin-left: auto;
     
 }
 
@@ -68,6 +68,7 @@ fieldset.grupo .campo {
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
+    
 }
 
 .campo select option {
@@ -107,21 +108,3 @@ fieldset.grupo .campo {
 #check {
     display: inline-block;
 }
-
-
-/* .botao2 {
-    font-size: 1.2em;
-    background: #59429d;
-    border: 0;
-    margin-bottom: 1em;
-    color: #ffffff;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-        
-}
-.botao2:hover {
-    background: #ccbbff;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none;
-} */
